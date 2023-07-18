@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\ASPCSharp\\webnet\\API\\API.csproj": {}
+    "D:\\ASPCSharp\\webnet\\API\\API.csproj": {}
   },
   "projects": {
-    "d:\\ASPCSharp\\webnet\\API\\API.csproj": {
+    "D:\\ASPCSharp\\webnet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\ASPCSharp\\webnet\\API\\API.csproj",
+        "projectUniqueName": "D:\\ASPCSharp\\webnet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "d:\\ASPCSharp\\webnet\\API\\API.csproj",
+        "projectPath": "D:\\ASPCSharp\\webnet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "d:\\ASPCSharp\\webnet\\API\\obj\\",
+        "outputPath": "D:\\ASPCSharp\\webnet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,6 +21,8 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +46,8 @@
               "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.9, )"
             },
